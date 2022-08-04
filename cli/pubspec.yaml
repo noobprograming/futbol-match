@@ -1,4 +1,4 @@
-name: cli
+name: futbol_match
 description: A sample command-line application.
 version: 1.0.0
 # homepage: https://www.example.com
@@ -12,3 +12,14 @@ environment:
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.16.0
+
+dependencies:
+  firebase_auth: ^3.4.0
+  firebase_core: ^1.20.0
+  flutter: 
+    sdk: flutter
+  flutterfire_ui: ^0.4.3+4
+  material: ^1.0.0+2
+
+flutter: 
+  uses-material-design: true
